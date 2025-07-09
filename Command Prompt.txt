@@ -1,62 +1,6 @@
-Microsoft Windows [Version 10.0.26100.4484]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\smop6>python --version
-Python 3.13.5
-
-C:\Users\smop6>pip3 install tensorflow
-Defaulting to user installation because normal site-packages isnot writeable
-ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none)
-ERROR: No matching distribution found for tensorflow
-
-C:\Users\smop6>pip3 install --upgrade pip
-Defaulting to user installation because normal site-packages isnot writeable
-Requirement already satisfied: pip in c:\python313\lib\site-packages (25.1.1)
-
-C:\Users\smop6>pip install -U pylint --user
-Collecting pylint
-  Downloading pylint-3.3.7-py3-none-any.whl.metadata (12 kB)
-Collecting astroid<=3.4.0.dev0,>=3.3.8 (from pylint)
-  Downloading astroid-3.3.10-py3-none-any.whl.metadata (4.4 kB)
-Collecting colorama>=0.4.5 (from pylint)
-  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
-Collecting dill>=0.3.6 (from pylint)
-  Downloading dill-0.4.0-py3-none-any.whl.metadata (10 kB)
-Collecting isort!=5.13,<7,>=4.2.5 (from pylint)
-  Downloading isort-6.0.1-py3-none-any.whl.metadata (11 kB)
-Collecting mccabe<0.8,>=0.6 (from pylint)
-  Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
-Collecting platformdirs>=2.2 (from pylint)
-  Downloading platformdirs-4.3.8-py3-none-any.whl.metadata (12 kB)
-Collecting tomlkit>=0.10.1 (from pylint)
-  Downloading tomlkit-0.13.3-py3-none-any.whl.metadata (2.8 kB)
-Downloading pylint-3.3.7-py3-none-any.whl (522 kB)
-Downloading astroid-3.3.10-py3-none-any.whl (275 kB)
-Downloading isort-6.0.1-py3-none-any.whl (94 kB)
-Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
-Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
-Downloading dill-0.4.0-py3-none-any.whl (119 kB)
-Downloading platformdirs-4.3.8-py3-none-any.whl (18 kB)
-Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
-Installing collected packages: tomlkit, platformdirs, mccabe, isort, dill, colorama, astroid, pylint
-   ━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━━━━━ 3/8 [isort]  WARNING: The scripts isort-identify-imports.exe and isort.exe are installed in 'C:\Users\smop6\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
-  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━ 7/8 [pylint]  WARNING: The scripts pylint-config.exe, pylint.exe, pyreverse.exe andsymilar.exe are installed in 'C:\Users\smop6\AppData\Roaming\Python\Python313\Scripts' which is not on PATH.
-  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-Successfully installed astroid-3.3.10 colorama-0.4.6 dill-0.4.0isort-6.0.1 mccabe-0.7.0 platformdirs-4.3.8 pylint-3.3.7 tomlkit-0.13.3
-
-C:\Users\smop6>pip install -U pylint --user
-Requirement already satisfied: pylint in c:\users\smop6\appdata\roaming\python\python313\site-packages (3.3.7)
-Requirement already satisfied: astroid<=3.4.0.dev0,>=3.3.8 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint) (3.3.10)
-Requirement already satisfied: colorama>=0.4.5 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint) (0.4.6)
-Requirement already satisfied: dill>=0.3.6 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint) (0.4.0)
-Requirement already satisfied: isort!=5.13,<7,>=4.2.5 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint) (6.0.1)
-Requirement already satisfied: mccabe<0.8,>=0.6 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint) (0.7.0)
-Requirement already satisfied: platformdirs>=2.2 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint)(4.3.8)
-Requirement already satisfied: tomlkit>=0.10.1 in c:\users\smop6\appdata\roaming\python\python313\site-packages (from pylint) (0.13.3)
-
-C:\Users\smop6>pip install -r requirements.txt
-Defaulting to user installation because normal site-packages isnot writeable
-ERROR: Could not open requirements file: [Errno 2] No such fileor directory: 'requirements.txt'
-
-C:\Users\smop6>
+python --version
+pip3 install tensorflow
+pip3 install --upgrade pip
+pip install -U pylint --user
+pip install -U pylint --user
+pip install -r requirements.txt
